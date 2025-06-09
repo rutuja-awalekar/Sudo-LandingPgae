@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Responsive.css';
 import Header from './components/Header-Section';
 import SearchSection from './components/Search-Section';
 import FeatureSection from './components/Feature-Section';
