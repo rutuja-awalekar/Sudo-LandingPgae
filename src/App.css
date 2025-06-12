@@ -93,6 +93,7 @@ margin-top: 5px;
   width: 600px;
   height: 50px;
   margin-left: 0px;
+  overflow: hidden;
 }
 
 .search-bar input {
@@ -103,15 +104,30 @@ margin-top: 5px;
   font-size: 1rem;
 }
 
-.search-bar button {
-  padding: 10px 20px;
-  background-color: white;
-  color:#1E4A9C;
+.search-input {
+  flex: 1;
+  padding: 12px;
   border: none;
-  border-radius: 0 4px 4px 0;
-  font-weight: bold;
-  cursor: pointer;
+  outline: none;
+  font-size: 16px;
 }
+
+.search-button {
+  padding: 12px 20px;
+  background-color: #1E4A9C; /* your primary color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  border: 6px solid white;
+;
+}
+
+.search-button:hover {
+  background-color: #08306b;
+}
+
 
 .popular-tags {
   display: flex;

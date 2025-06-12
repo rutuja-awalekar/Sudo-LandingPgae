@@ -8,8 +8,12 @@ function SearchSection() {
         <p className="sub-text">Search here to get answers to your questions</p>
         
         <div className="search-bar">
-          <input type="text" placeholder="Search on Sudoconsultants.com" />
-          <button>Search</button>
+          <input 
+          type="text"
+          placeholder="Search on Sudoconsultants.com" 
+          className="search-input"
+          />
+          <button className="search-button">Search</button>
         </div>
 
         <div className="popular-tags">
