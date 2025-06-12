@@ -365,6 +365,7 @@ letter-spacing: 0.15px;
 
 .support-section {
    background-image: url('../src/assets/support.jpg');
+  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
   display: flex;
