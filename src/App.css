@@ -405,13 +405,13 @@ height: 336px;
 padding: 10px 25px 10px 25px;
 }
 
-.support-image {
+/* .support-image {
   width: 50%;
   background-image: url('../src/assets/request.section.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
+} */
 
 /*FOOTER-SECTION STYLES*/
 
